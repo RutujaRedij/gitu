@@ -1,4 +1,4 @@
-"provider "aws" {
+provider "aws" {
  alias = "south"
  region = "ap-south-1"
  access_key = "AKIAWCZC55UTDV3M65IY"
