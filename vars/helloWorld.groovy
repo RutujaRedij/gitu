@@ -1,3 +1,3 @@
-def call() {
-  sh 'sh script.sh'
+def call(String name = 'World') {
+  sh 'echo 'Hello from ${name} from shared Library''
 }
